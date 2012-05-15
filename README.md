@@ -3,6 +3,31 @@
 [Legacy Entity Time](http://xmpp.org/extensions/xep-0090.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-legacy-time
+
+## Usage
+
+To respond to legacy requests for the local time of the entity, use `legacyTime`
+middleware:
+
+    var legacyTime = require('junction-legacy-time');
+
+    var app = junction()
+      .use(legacyTime());
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-time.png)](http://travis-ci.org/jaredhanson/junction-time)
+
+## Credits
+
+  - [Jared Hanson](http://github.com/jaredhanson)
+
 ## License
 
 (The MIT License)
