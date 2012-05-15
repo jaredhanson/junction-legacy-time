@@ -22,7 +22,7 @@ middleware:
     $ npm install --dev
     $ make test
 
-[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-time.png)](http://travis-ci.org/jaredhanson/junction-time)
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-legacy-time.png)](http://travis-ci.org/jaredhanson/junction-legacy-time)
 
 ## Credits
 
