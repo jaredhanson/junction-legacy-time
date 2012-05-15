@@ -1,6 +1,6 @@
 {
   "name": "junction-legacy-time",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Legacy Entity Time middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "time", "entitytime", "xep0090", "middleware"],
   "repository": {
